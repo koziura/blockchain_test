@@ -24,3 +24,4 @@ find ./bin -name "logs" -print0 | xargs -0 rm -rf
 find ./bin -name "Logs" -print0 | xargs -0 rm -rf
 find ./bin -name "data" -print0 | xargs -0 rm -rf
 find ./bin -name "Data" -print0 | xargs -0 rm -rf
+find ./build/ -name "*" -print0 | xargs -0 rm -rf

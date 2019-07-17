@@ -1,6 +1,7 @@
-#include <block.h>
-#include <blockchain.h>
-#include <transaction.h>
+#include "block.h"
+#include "blockchain.h"
+#include "transaction.h"
+//#include "version.h"
 
 typedef std::tuple<int, int, std::string, std::string, int> Sign_t;
 /*!
@@ -21,6 +22,7 @@ inline std::string makeSourceSignature(const Sign_t& v) {
 int main()
 {
 	std::cout << "Hello Blockchain test!" << std::endl;
+	//std::cout << GIT_DATETIME << std::endl;
 
 	std::string src_sign = makeSourceSignature( std::make_tuple(1,1,"bob","alice",1000) );
 	std::string md5_sign = _get_md5_str(src_sign);

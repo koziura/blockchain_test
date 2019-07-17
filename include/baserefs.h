@@ -1,6 +1,8 @@
 #ifndef BASEREFS_H
 #define BASEREFS_H
 
+#include <stdio.h>
+#include <stdint.h>
 #include <iostream>
 #include <sstream>
 #include <string>
@@ -11,7 +13,9 @@
 #include <tuple>
 #include <algorithm>
 #include <exception>
-#include <openssl/md5.h>
+#include <memory.h>
+#include <md5.h>
+//#include <openssl/md5.h>
 //#include <unistd.h>
 /*!
  * \brief _get_md5_str

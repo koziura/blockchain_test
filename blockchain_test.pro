@@ -49,7 +49,8 @@ LIBS += \
 }
 
 INCLUDEPATH += \
-	include/
+	include/	\
+	ver/
 
 SOURCES += \
 	src/main.cpp \
@@ -65,6 +66,6 @@ HEADERS += \
 
 unix: {
 LIBS += \
-	-lssl \
-	-lcrypto
+#	-lssl \
+#	-lcrypto
 }

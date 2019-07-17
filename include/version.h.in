@@ -1,0 +1,12 @@
+#ifndef VERSION_H
+#define VERSION_H
+
+#define APP_VER "0.1"
+#define GIT_COMMIT_COUNT "@GIT_COMMIT_COUNT@"
+#define GIT_DATETIME "@GIT_DATETIME@"
+#define GIT_BRANCH "@GIT_BRANCH@"
+#define GIT_COMMIT_HASH "@GIT_COMMIT_HASH@"
+#define CMAKE_DATETIME "@CMAKE_DATETIME@"
+
+#endif
+
